@@ -1,0 +1,93 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+#login_navbar{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 50px;
+    background-color: rgb(0,146,112);
+    margin: auto;
+    margin-bottom: 10px;
+}
+#login_navbar>div>img{
+    margin-top: 3px;
+    margin-left: 25px;
+    height: 42px;
+    cursor: pointer;
+}
+hr{
+width: 80%;
+margin-top: -40px;
+color: grey;
+}
+
+#login_navbar1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: auto;
+  
+}
+#toHome{
+    cursor: pointer;
+}
+#login_left{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    margin-left: 15px;
+}
+#login_right{
+    width: 13%;
+    height: 40px;
+    margin-right: 10px;
+}
+#login_right>img{
+ margin-top: 10px;
+ height: 40px;
+}
+#login_left>div>p{
+
+    padding-top: 4px;
+    color: rgb(88, 85, 85);
+
+}
+
+#login_main{
+    margin: auto;
+    width: 35%;
+}
+#login_main>p{
+    margin-top: -10px;
+    margin-left: 110px;
+}
+#login_main>h1{
+    
+    margin-left: 110px;
+}
+#login_main>form>p{
+    
+    margin-left: 40px;
+}
+form>input{
+    width:55% ;
+   height:25px;
+   margin-left: 100px;
+    
+}
+#continue{
+    width: 25%;
+    background-color: #009270;
+    border-radius: 10px;
+    margin-left:180px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    padding: 10px 20px;
+}
+#continue:hover{
+    background-color: #02755a;
+}

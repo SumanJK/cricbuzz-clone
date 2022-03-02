@@ -1,0 +1,162 @@
+#cricbuzzPlus_container{
+   justify-content: space-around;
+    width: 80%;
+    display: grid;
+    padding-left: 35px;   
+    margin: auto;
+    grid-template-columns: repeat(2, 420px);
+    background: rgb(0,0,0);
+background: linear-gradient(71deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 34%, rgba(202,215,221,1) 100%);
+    grid-template-rows: repeat(1,420px);
+    grid-gap:0px
+}
+.leftdivtop{
+    color: white;
+    font-size: x-large; 
+}
+.leftdivtop > button{
+  background-color: rgb(0,146,112);
+  color: rgb(255, 255, 255);
+    padding: 8px 24px;
+  font-size: large;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+.leftdivtop > button:hover{
+    background-color:rgb(0, 117, 90) ;
+}
+.leftdivtop>h1{
+    margin-top:-25px;
+}
+.rightdivtop{
+    margin: auto;
+    
+ } 
+ .rightdivtop>img{
+     width: 350px;
+ }
+ #cricbuzzPlus_container1{
+    margin: auto;
+    width: 80%; 
+
+}
+.bar1{
+    display: flex;
+    margin-top: -10px;
+}
+.bar1>div{
+    padding-left: 10px;
+}
+.trending>a{
+     padding-left:-10px;
+     color: teal;
+     text-underline-position: auto;
+}
+.featured{
+    display: flex;
+    margin: auto;
+    width: 80%; 
+    justify-content: space-between; 
+}
+.featured>div>h1{
+    margin-left: 10px;
+}
+hr{
+    color: white;
+}
+
+#cricbuzzPlus_container2{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,250px); 
+    margin: auto;
+    padding: auto;
+    gap: 10px;
+}
+#cricbuzzPlus_container2>div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 10px;
+    cursor: pointer;
+}
+#cricbuzzPlus_container2>div>img{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#cricbuzzPlus_container2>div>h5{
+    margin-top: -2px;
+    padding-left: 10px;
+}
+#cricbuzzPlus_container2>div>p{
+    margin-top: -15px;
+    color: grey;
+    padding-left: 10px;
+}
+.viewAll{
+    color: grey;
+    font-weight: lighter;
+}
+input,h5:hover{
+    cursor: pointer;
+}
+#editorialpage{
+    margin: auto;
+    display: grid;
+    width: 80%;
+    height: 240px;
+    border: 1px solid rgb(207, 207, 207);
+    grid-template-columns:32% 60% 5%;
+    grid-template-rows: repeat(1,240px);
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#editorialpage>div{
+    margin: 10px;
+}
+#editorialpage>div>img{
+height: 100%;
+ border-radius: 8px;
+ cursor: pointer;
+}
+
+#editorialpage>div>p{
+    color: grey;
+    margin-left: 10px;
+}
+#editorialpage>div>h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#editorialpage>div>h2{
+  
+    margin-left: 10px;
+}
+#crickbuzzPlus_logo{
+        margin-top:-32px;
+        height:-20px;
+}
+.videoimage{
+    position: relative;
+    width: 100%;
+}
+.imagetag1{
+    width: 100%;
+    border-radius: 5px;
+    height: 170px;
+}
+.imagetag2{
+    position: absolute;
+    width: 55px;
+    height: 80px;
+    left: 82%;
+    top: -2%;
+}
+

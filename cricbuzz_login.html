@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>login cricbuzz</title>
+    <link rel="shortcut icon" href="cric.ico" type="image/x-icon">
+    <link rel="stylesheet" href="cricbuzz_login.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="login_navbar">
+            <div>
+                <img id="homeTransfer" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+            </div>      
+    </div>
+
+    <div id="login_navbar1">
+        <div id="login_left">
+            <div>
+                <p id="toHome"> Home ></p>
+            </div>
+            <div>
+                <h3> Account</h3>
+            </div>   
+        </div>
+        <div id="login_right"> 
+            <img src="https://www.cricbuzz.com/images/cb_logo_plus_color.svg" alt="">
+        </div>
+    </div>
+    <hr>
+    <div id="login_main">
+        <h1>Login / Sign Up </h1>
+        <p>We will send OTP to your email id</p>
+        <form class="login_box">
+            <br>
+            <br>           
+           <input class="username" id="emailID" value="" type="text" placeholder="Enter your email id"/>
+            <br>
+            <br>
+            <br>
+            <p><input id="checkBox" type="checkbox"> I agree with the Terms of Use and Privacy Policy of Cricbuzz </p>
+        </form>
+        <button id="continue" onclick="signin()">continue</button>
+    </div>
+</body>
+</html>
+<script src="cricbuzz_login.js"></script>

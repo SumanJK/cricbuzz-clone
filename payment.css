@@ -1,0 +1,193 @@
+body{
+    background-color: #e2e6e3;
+}
+#bigbox{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    background-color: white;
+}
+
+#bigbox2{
+    height: 1000px;
+    width: 800px;
+    align-items: center;
+}
+
+#paymentcontainer{
+    width: 100%;
+    align-items: center;
+    margin:auto;
+    display: flex;
+    height: 55%;
+    border-radius: 15px;
+    border: solid rgb(219, 214, 214) 1px;
+    margin-bottom: 30px;
+    border-left:solid rgb(79, 79, 190)5px ;
+}
+
+#con1{
+    width: 45%;
+    margin: auto;
+    margin-left: 7px;
+    font-family: helvetica,Segoe UI,Arial,sans-serif;
+    border: solid rgb(219, 214, 214) 1px;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+
+
+#line1{
+    display: flex;
+    margin:auto;
+}
+
+#logoplus{
+    width: 70px;
+    padding: 20px;
+    border: solid #ebe6e6 1px;
+}
+
+#line2{
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+
+#line31{
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 15px;
+
+}
+#line32{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+#line4{
+    font-size: 9px;
+    color: silver;
+    margin-top: 18px;
+    margin-bottom: 22px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+
+#sline1{
+    margin-left: 40px;
+    color: #8E8E8E;
+}
+
+#line5{
+    color: #8E8E8E;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+#line51{
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-left: 15px;
+}
+
+#line6{
+    font-size: 12px;
+    background-color: rgb(79, 79, 190);
+    width: 70%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#imgpay{
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+
+#con2{
+    width: 55%;
+    margin-top: 10px;
+}
+
+.paylist{
+    list-style: none;
+    
+}
+
+ul.paylist li{
+    display: flow-root;
+    border-bottom: 1px #f4f4f4 solid;
+    border-left: 4px #ffffff solid;
+    padding: 18px 18px 20px 41px;
+    line-height: normal;
+    transition: all 400ms ease-in-out;
+    color: #2e2e2e;
+    cursor: pointer;
+    height: 25px;
+    
+}
+
+#paystyle{
+    margin-left: 15px;
+    padding-left: 40px;
+    margin: auto;
+    color: grey;
+    font-size: 12px;
+    font-family: helvetica,Segoe UI,Arial,sans-serif;
+}
+
+#payoptions1{
+    margin-right: 25px;
+    width: auto;
+
+}
+
+#payoptions2{
+    width: 120px;
+    margin-right: 20px;
+}
+
+#payoptions3{
+    margin-left: 100px;
+}
+
+
+
+
+.paylist {
+    
+    background: #fff;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+#endlogo{
+    height: 35px;
+    width: 55px;
+    margin: auto;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+    align-items: center;
+}
+
+
+#linends{
+    color: silver ;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}

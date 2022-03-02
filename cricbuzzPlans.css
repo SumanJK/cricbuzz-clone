@@ -1,0 +1,218 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#login_navbar{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(0,146,112);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 6px solid rgb(228, 228, 228);
+    margin-bottom: 0px;
+}
+#plans_left{
+    width: 12%;
+    margin-left: 20px;
+}
+#plans_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+#plans_right button{
+    text-align: center;
+    border-radius: 20px;
+    padding: 9px 19px;
+    margin: 0px 12px;
+    cursor: pointer;
+    border: none;
+}
+#plansUser{
+    padding: 3px 26px !important;
+    background-color: #009270;
+    color: white;
+    border: 2px solid white !important;
+    font-size: 16px;
+}
+.plansUser:hover{
+    background-color: #03755b;
+}
+.symbol{
+    background-color: rgb(0,146,112);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+#cricbuzzPlan_container{
+    justify-content: space-around;
+     width: 80%;
+     display: grid;
+     padding-top: 20px;
+     margin: auto;
+     grid-template-columns: repeat(2, 420px);
+     background: rgb(22,205,213);
+     background: linear-gradient(0deg, rgba(22,205,213,1) 0%, rgba(0,181,103,1) 91%);
+     grid-template-rows: repeat(1,350px);
+     grid-gap:0px;
+     color: white;
+ }
+#leftdivtop>div>button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+#learnMore{
+    background-color: #009270;
+    padding: 8px 20px !important;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white !important;
+    margin: 0px !important;
+}
+#learnMore:hover{
+    background-color: #03755b;
+}
+#rightdivtop>img{
+    height: 90%;
+}
+#benefits{
+    margin: auto;
+    text-align: center;
+}
+#benefits>p{
+    margin-top: -15px;
+}
+#cricbuzzPlan_container1{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+    grid-template-rows: repeat(2,160px);
+    margin: auto;
+    padding: auto;
+    gap: 1px;
+}
+#cricbuzzPlan_container1>div{
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+#cricbuzzPlan_container1>div>div>img{
+ padding-right: 10px;
+ border-radius: 5px;
+}
+#cricbuzzPlan_content>p{
+    margin-top: -15px;
+}
+#ptag{
+    font-size: small;
+    margin: auto;
+}
+#newptag{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+hr{
+    width: 80%;
+    color: grey;
+}
+#cricbuzzPlan_container2{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.boxes{
+    width: 32%;
+    height: 135px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.plan{
+    height: 18%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 30px;
+    padding-left: 30px;
+    background-color: #ffd361;
+    color: black;
+}
+.content{
+    width: 94%;
+    height: 80%;
+    padding-left: 20px;
+}
+.boxes span{
+    font-size: 28px;
+}
+.boxes:active{
+    background-color: #009270;
+    color: white;
+    cursor: pointer;
+}
+.boxes i{
+    font-size: 28px;
+}
+.membership{
+    font-size: 13px;
+}
+#lastBox{
+margin-top: 7%;
+}
+.membership>span{
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+#cricbuzzPlan_container3{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.boxes1{
+    width: 32%;
+    height: 225px;
+    margin: 20px;
+    margin-top: -2px;
+    font-size: x-small;
+}
+#cricbuzzPlan_lastbox{
+    margin: auto;
+    width: 40%;
+    height: 100px;
+    margin-top: -150px;
+}
+#cricbuzzPlan_lastbox>input{
+    background-color: #009270;
+    margin-left: 180px;
+    text-align: center;
+    height: 25px;
+    border-radius: 5px;
+}
+#cricbuzzPlan_lastbox>p{
+    margin-left: 79px;
+}
+#continue{
+    width: 30%;
+    background-color: rgb(0, 138, 108);
+    border-radius: 5px;
+    padding: 14px 20px;
+    margin-left:215px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+#memberOrNot{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}

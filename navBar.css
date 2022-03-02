@@ -1,0 +1,137 @@
+
+        *{
+            box-sizing: border-box;
+            font-family: 'Noto Sans', sans-serif;
+        }
+     body{
+         font-family: sans-serif;
+         background-color: whitesmoke;
+     }
+     #nav_container{
+         width: 80%;
+        margin: auto;
+        border-bottom: 4px solid rgb(201, 199, 199);
+     }
+     #nav_Uppercontainer{
+         background-color: #009270;
+         text-align: center;
+         height: 3.5rem;
+         border-bottom: 2px solid #02795d;
+     }
+     #nav_Uppercontainer a{
+         text-decoration: none;
+         color: white;
+         font-size: 16px;
+        align-items: center;
+        margin: 0px;
+        padding: 19px 6px;
+     }
+
+     #nav_signup:hover{
+         background-color: #009270 ;
+     }
+     #nav_Uppercontainer a:hover{
+         background-color: #00775b ;
+     }
+     
+     #nav_Uppercontainer ul{
+         display: flex;
+         justify-content: space-around;
+         list-style: none;
+         color: white;
+         margin: auto;
+         text-decoration: none;
+        align-items: center;
+        height: 56px;
+     }
+     #nav_Uppercontainer img{
+        width: 120px;
+        height: 50px;
+        padding: 0px;
+        margin-top: 4px;
+        margin-left: -30px;
+        margin-right: 20px;
+     }
+     #nav_Uppercontainer img:hover, #nav_Uppercontainer button:hover{
+         cursor: pointer;
+     }
+     #nav_Uppercontainer button{
+         padding: 10px;
+         width: 140px;
+         border: none;
+         background-color: white;
+         color: gray;
+         border-radius: 20px;
+         font-size: 16px;
+     }
+     #nav_signup{
+         font-size: 30px;
+     }
+     #nav_signup:hover{
+         cursor: pointer;
+     }
+     #nav_search{
+         font-size: 20px;
+         opacity: 80%;
+         margin-left: 10px;
+     }
+     #nav_search:hover{
+        background-color: #009270 ;
+        cursor: pointer;
+     }
+     .drop_Down_Bar{
+         display: none;
+     }
+     
+     #nav_Uppercontainer ul li:hover .drop_Down_Bar{
+        display: flex;
+         position: absolute;
+         background-color: white;
+         margin-top: 20px;
+         margin-left: 0px;
+        justify-content: space-around;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     }
+     #nav_Uppercontainer ul li:hover .drop_Down_Bar ul{
+         display: block;
+         margin: 0px;
+         height: 100%;
+         width: 140%;
+         text-align: left;
+         padding: 0px;
+     }
+     #nav_Uppercontainer ul li:hover .drop_Down_Bar ul li{
+         width: 100%;
+         background: transparent;
+         color: black;
+         padding: 10px ;
+     }
+     #nav_Uppercontainer ul li:hover .drop_Down_Bar ul li:hover{
+         background-color:  #eeeeee;
+         cursor: pointer;
+     }
+     #nav_Lowercontainer{
+         background-color: #4a4a4a;
+         display: grid;
+         grid-template-columns: 7% 12% 16% 16% 15% 16% 30%;
+         text-align: center;
+     }
+     #nav_Lowercontainer>a{
+         text-decoration: none;
+         color: white;
+         font-size: 14px;
+         padding: 13px 12px;
+     }
+     #nav_Lowercontainer>a:hover{
+         background-color: #333333;
+     }
+     #nav_all{
+         margin-left: 158px;
+         margin-right: auto;
+         padding-left: 25px;
+         padding-right: 45px;
+
+     }
+     #nav_container .fas{
+    margin: 0px;
+}

@@ -1,0 +1,219 @@
+ 
+ *{
+    font-family: 'Noto Sans', sans-serif;
+
+ }
+           
+ body{
+    background-color: rgba(227, 230, 227, 0.877);
+}
+#featuredMatches{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: -20px;
+    padding-top: 2px;
+    padding-left: 0.6%;
+    color: #008080;
+    font-size: 12px;
+}
+    #containerfrontpage{
+        width: 80%;
+        height: 100%;
+
+        margin: auto;
+        display: grid;
+        
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows:  160px   ;
+        gap: 5px;
+        grid-template-areas: 
+        "a a a a a a a a a a a a"
+        "b b b c c c c c e e e e"
+        "b b b c c c c c e e e e"
+        "b b b c c c c c e e e e"
+        "y y y y y y y y y y y y"
+        "y y y y y y y y y y y y "
+        "y y y y y y y y y y y y";
+        
+    }
+
+
+    #box1{
+        grid-area: a;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0px;
+    }
+    #box1 span{
+        color: red;
+    }
+    #box1 > div{
+        border-right: 1px solid rgb(182, 182, 182);
+        margin-top: 20px;
+        
+        margin-right: -40px;
+        padding-right: 100px;
+        padding-left: -50px;
+        height: 60%;
+    }
+
+    #box2{
+        grid-area: b;
+         background-color: white;
+
+    }
+
+    #box3{
+        grid-area: c;
+        background-color: white;
+        
+    }
+
+    #box4{
+        grid-area:e ;
+        background-color: white;
+
+        
+    }
+
+    #id1{
+        margin-top: 30px;
+        margin-left: 30px;
+       margin-bottom: 30px;
+       
+    }
+
+    .havehave{
+        margin-left: 10px;
+        color: teal;
+    }
+    .class30{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .time1{
+        margin-left: 20px;
+        color: gray;
+    }
+
+    .line{
+        border: 0.05px solid rgba(128, 128, 128, 0.185);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .lineline{
+        border: 2px solid rgba(128, 128, 128, 0.295);
+    }
+    .imgg{
+        margin-left: 50px;
+        margin-top: 15px;
+        border-radius: 3px;
+    }
+    .linemy{
+        border: .5px solid rgba(128, 128, 128, 0.253);
+         margin-left: 20px;
+         margin-right: 20px;
+         margin-top: 30px;
+         border-radius: 3px;
+    }
+    .shrawani12{
+        color: blue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 20px;
+    }
+    .newbox3{
+        margin-left: 20px;
+        color: gray;
+    }
+    .haveto2{
+        margin-left: 50px;
+        border-radius: 3px;
+        cursor: pointer;
+
+    }
+     .newh1fordiv{
+         margin-left: 20px;
+         margin-right: 20px;
+         text-decoration: underline;
+         text-decoration: none;
+         cursor: pointer;
+
+     }
+
+     .powerof{
+        color: blue;
+        margin-left: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+
+     }
+
+     .linethorugh{
+         border: .5px solid rgba(128, 128, 128, 0.219);
+         margin-left: 10px;
+         margin-right: 10px;
+
+     }
+     .wif{
+         display: flex;
+     }
+     .newimgto{
+         margin-left: 10px;
+         cursor: pointer;
+
+     }
+
+     .classh4{
+         margin-left: 10px;
+     }
+
+     .shrawani499{
+        color: blue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 20px;
+        cursor: pointer;
+
+    }
+
+    .linethorugh24{
+        border: .5px solid rgba(128, 128, 128, 0.219);
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    .imgdivand{
+        margin-left: 30px;
+        border-radius: 3px;
+        cursor: pointer;
+
+    }
+    .btnbtn{
+        background-color: #009270;
+        color: white;
+        border: 0px;
+        margin-left: 150px;
+        padding: 10px 18px;
+        font-size: 15px;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    .imgdivandforfor{
+        margin-top: 60px;
+        margin-left: 40px;
+        border-radius: 3x;
+        cursor: pointer;
+
+    }
+  
+    #forfooter{
+        grid-area: y;
+        background-color:     rgb(74,74,74);
+    }
+
+    
+
+    

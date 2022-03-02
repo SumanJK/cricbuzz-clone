@@ -1,0 +1,134 @@
+*{
+    font-family: helvetica,"Segoe UI",Arial,sans-serif;
+}
+body{
+    background-color:#e2e6e3 ;
+
+}
+#bigpro{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    border: solid silver 1px;
+    background-color: white;
+}
+
+#smpro1{
+    width: 40%;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+
+#smpro2{
+    width: 40%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.adisplay{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    
+}
+
+.bline1{
+    color: #222;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+
+.bline2{
+    border-bottom: solid #E3E6E3 2px ;
+    width: 290px;
+}
+
+.bdisplay{
+    display: flex;
+    padding: 10px;
+    border: solid #E3E6E3 1px;
+    width: 390px;
+}
+.bdisplay:hover{
+    cursor: pointer;
+    background-color: #028062;
+    color: white;
+}
+
+
+
+
+.options1{
+    margin-right: 25px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.options2{
+    width: 120px;
+    margin-right: 20px;
+}
+
+.options3{
+    margin-left: 140px;
+    
+}
+
+
+.aava{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#avatar{
+    padding: 1px;
+    border: solid black 2px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.changeava{
+    width: 50;
+    margin: auto;
+    color: #1866db ;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+
+
+.inputee{
+    height: 35px;
+    opacity: 50%;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding-left: 10px ;
+}
+
+#butsub{
+    width: 100px;
+    background-color: #0aac86;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: white ;
+    cursor: pointer;
+    border-radius: 3px;
+    border: blanchedalmond;
+}
+
+
+#butdiv{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}

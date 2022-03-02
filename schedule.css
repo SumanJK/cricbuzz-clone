@@ -1,0 +1,79 @@
+*{
+    font-family: helvetica,Segoe UI,Arial,sans-serif;
+}
+body{
+    background-color: #e3e6e3;
+}
+
+#containerschedule{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+
+#line1{
+    margin-left: 15px;
+    padding-top: 15px
+}
+
+#cstopicid{
+   display: grid;
+   grid-template-columns: repeat(5,180px);
+   padding: 5px 15px;
+   
+}
+
+
+.cstopic{
+    background-color: #CFE0DB;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;   
+    cursor: pointer; 
+    text-align: center; 
+    font-size: 14px;
+    width: 150px
+}
+
+
+.cstopic:hover{
+    background-color: #009270 ;
+    cursor: pointer;
+    color: white;
+ }
+
+.dates{
+    background-color: #e3e6e3;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    height: 30px;
+    width: 100%;
+    padding-left: 15px; ;
+    padding-top: 10px;
+}
+
+.tours{
+    display: grid;
+    grid-template-columns:repeat(3,33%);
+    grid-template-rows: 1;
+    margin-right: 45px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+}
+
+.allp{
+    color: #666;
+    font-size: 12px;
+    
+}
+
+.tourhead{
+    font-weight: bold;
+}
+
+.time{
+    margin-left: 60px;
+}

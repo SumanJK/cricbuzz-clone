@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>otp cricbuzz</title>
+    <link rel="shortcut icon" href="cric.ico" type="image/x-icon">
+    <link rel="stylesheet" href="cricbuzz_Otp.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="login_navbar">
+            <div>
+                <img id="frontPageImg" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+            </div>      
+    </div>
+
+    <div id="login_navbar1">
+        <div id="login_left">
+            <div>
+                <p id="frontPage"> Home ></p>
+            </div>
+            <div>
+                <h3> Account</h3>
+            </div>   
+        </div>
+        <div id="login_right"> 
+            <img src="https://www.cricbuzz.com/images/cb_logo_plus_color.svg" alt="">
+        </div>
+    </div>
+    
+
+    <div id="OTP_main">
+        <h1>Enter the 6 digit OTP</h1>
+        <p> OTP sent to your entered email id</p>
+        <form>
+            <br>
+            <i class="far fa-envelope"></i>
+           <input class="otp" type="number" placeholder="Enter OTP"/>
+        </form>
+        <button id="otp_continue" onclick="otp_pay()">submit</button>
+    </div>
+</body>
+</html>
+<script src="cricbuzz_Otp.js"></script>

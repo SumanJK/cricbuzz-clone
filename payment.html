@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment Cricbuzz Plus</title>
+    <link rel="stylesheet" href="payment.css"/>
+    <link rel="shortcut icon" href="cric.ico" type="image/x-icon">
+</head>
+<body>
+   
+
+    <div id="bigbox">
+       
+       <div id="bigbox2">
+
+        <div >
+            <img id="imgpay" src="https://secure.payu.in/StaticBannerAd?image=gSRHBj_header.png">
+        </div>
+         
+        <div id="paymentcontainer">
+        
+        
+            <div id="con1">
+    
+                    <div style="display: flex; margin: auto; margin-top: 10px;">
+                        <div id="line1">
+                            <div><img src="https://api.payu.in/public/assets/images/back.svg"></div>
+                            <div style="margin-left: 10px; margin-right: 70px; font-size: 14px;font-weight: bolder;"> Back</div>
+                        </div>
+                        <div> <img id="logoplus" src="data:image/jpeg;base64,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" /> </div>
+                    </div>
+    
+                    <div id="line2">Choose a payment option</div>
+    
+                    <div id="line1">
+                        <div id="line31">Total Payable Amount</div>
+                        <div id="line32">₹999</div>
+                    </div>
+    
+                    <div>
+                        <div id="line4">Transaction Id: 5e795ea4-cfce-44a7-ad03-b0087c3467c7</div>
+                    </div>
+    
+                    <div id="line1">
+                        <div id="line5">Total Payable Amount</div>
+                        <div id="line51">₹999</div>
+                    </div>
+    
+            </div>
+
+            
+            <div  style="font-family: 'avenir-heavy'; margin-left: 10px; ">
+                   
+                    <ul class="paylist">
+                        <h3 id="paystyle">PAYMENT OPTIONS</h3>
+                        <li style="display: flex; margin: auto;"> 
+                            <span> 
+                                <img id="payoptions1" src="https://api.payu.in/public/assets/images/card-icon.svg">
+                            </span>
+                            <span id="payoptions2"> 
+                                Cards (Credit/Debit)
+                            </span>
+                            <img id="payoptions3" src="https://api.payu.in/public/assets/images/accordian-arrw.svg">
+                        </li>
+
+
+                        <li style="display: flex; margin: auto;"> 
+                            <span> 
+                                <img id="payoptions1" src="https://api.payu.in/public/assets/images/net-banking-icon.svg">
+                            </span>
+                            <span id="payoptions2"> 
+                                Net Banking
+                            </span>
+                            <img id="payoptions3" src="https://api.payu.in/public/assets/images/accordian-arrw.svg">
+                        </li>
+
+
+                        <li style="display: flex; margin: auto;"> 
+                            <span> 
+                                <img id="payoptions1" src="https://api.payu.in/public/assets/images/wallet-icon.svg">
+                            </span>
+                            <span id="payoptions2"> 
+                                Wallet
+                            </span>
+                            <img id="payoptions3" src="https://api.payu.in/public/assets/images/accordian-arrw.svg">
+                        </li>
+
+
+                        <li style="display: flex; margin: auto;"> 
+                            <span> 
+                                <img id="payoptions1" src="https://api.payu.in/public/assets/images/upi-icon.svg">
+                            </span>
+                            <span id="payoptions2"> 
+                                UPI
+                            </span>
+                            <img id="payoptions3" src="https://api.payu.in/public/assets/images/accordian-arrw.svg">
+                        </li>
+
+
+                        <li style="display: flex; margin: auto;"> 
+                            <span> 
+                                <img id="payoptions1" src="https://api.payu.in/public/assets/images/bank-icons/icic.svg">
+                            </span>
+                            <span id="payoptions2"> 
+                                ICICI Bank Partner
+                            </span>
+                            <img id="payoptions3" src="https://api.payu.in/public/assets/images/accordian-arrw.svg">
+                        </li>
+
+
+                        <li style="display: flex; margin: auto;"> 
+                            <span> 
+                                <img id="payoptions1" src="https://api.payu.in/public/assets/images/lazypay.svg">
+                            </span>
+                            <span id="payoptions2"> 
+                                LazyPay
+                            </span>
+                            <img id="payoptions3" src="https://api.payu.in/public/assets/images/accordian-arrw.svg">
+                        </li>
+
+
+                        <li style="display: flex; margin: auto;"> 
+                            <span> 
+                                <img id="payoptions1" src="https://api.payu.in/public/assets/images/wallet-logos/paytm.svg">
+                            </span>
+                            <span id="payoptions2"> 
+                                Paytm
+                            </span>
+                            <img id="payoptions3" src="https://api.payu.in/public/assets/images/accordian-arrw.svg">
+                        </li>
+
+
+                        <li style="display: flex; margin: auto;"> 
+                            <span> 
+                                <img id="payoptions1" src="https://api.payu.in/public/assets/images/wallet-logos/twid.svg">
+                            </span>
+                            <span id="payoptions2"> 
+                                Pay With Rewards
+                            </span>
+                            <img id="payoptions3" src="https://api.payu.in/public/assets/images/accordian-arrw.svg">
+                        </li>
+                   
+                       
+                       
+                    </ul>
+               </div>
+           </div>
+
+
+           <div style="margin: auto;width: 100%;">
+             <div style="display: flex; margin:auto;">
+                <div><img id="endlogo" src="https://www.seekpng.com/png/full/321-3211847_nsec-sym-mktg-bw-norton-secured-logo-png.png"></div>
+                <div><img id="endlogo" src="https://logodix.com/logo/1153492.png"></div>
+                <div><img id="endlogo" src="https://www.pngkit.com/png/full/136-1367203_mastercard-secure-code-logo-png.png"></div>
+                <div><img id="endlogo" src="https://staticimg.titan.co.in/Common_Assets/Logo/Rupay_MC.png"></div>
+                <div><img id="endlogo" src="https://seekvectorlogo.com/wp-content/uploads/2020/03/american-express-safekey-vector-logo-small.png"></div>
+                <div><img id="endlogo" src="https://logodix.com/logo/2033050.png"></div>
+                <div><img id="endlogo" src="https://w1.pngwing.com/pngs/695/718/png-transparent-black-line-logo-payu-black-m-text-black-and-white-thumbnail.png"></div>
+                
+             </div>
+             <div id="linends">
+                 <p>
+                    By proceeding, you understand that your information will be processed as per PayU’s Privacy Policy
+                 </p>
+             </div>
+       </div>
+      </div>   
+    </div>
+</body>
+</html>
+
+<script src="payment.js"></script>
+

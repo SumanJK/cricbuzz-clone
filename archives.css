@@ -1,0 +1,103 @@
+*{
+    font-family: helvetica,Segoe UI,Arial,sans-serif;
+}
+#containerarchives{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+
+
+#impflex{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#seventyside{
+    width: 69%;
+    border-right: solid #E3E6E3 1px;
+    padding-left: 10px ;
+}
+
+#green{
+    font-size: 18px;
+    color: #028062;
+    font-weight: bold;
+    width: 110px;
+    margin-left: 10px;
+    
+}
+
+
+.black{
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: solid #E3E6E3 1px;
+}
+
+#grey{
+    width: auto;
+    font-size: 14px;
+    color: #666;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+
+
+#allseason{
+    margin-bottom: 20px;
+    padding-bottom: 10px ;;
+    border-bottom: solid #E3E6E3 1px ;
+}
+
+#thirtyside{
+    width: 29%;
+    padding-left: 20px ;
+    margin-bottom: 30px;
+   
+}
+
+#yeargrey{
+    font-weight: lighter;
+    color: grey;
+}
+
+#stylesarc{
+    display: grid;
+    grid-template-columns: repeat(5,50px);
+    grid-template-rows: 2;
+    column-gap: 5px;
+    row-gap: 10px;
+    
+}
+
+#matchdate{
+    width: 700px;
+    display: flex;
+}
+
+#extended{
+    background-color: #f5f5f5;
+    width: 50px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 5px;
+    padding-left: 0;
+    
+}
+
+#extended:hover{
+    background-color: #E3E6E3;
+    cursor: pointer;
+    color: black;
+ }

@@ -1,0 +1,54 @@
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(74,74,74);
+}
+.logoforfooterimg{
+    margin-left: 250px;
+    margin-top: 90px;
+    width: 140px;
+}
+
+.footerlines{
+    display: flex;
+
+}
+
+.footerline1{
+    margin-left: 480px;
+    margin-top: -60px;
+    color: white;
+
+}
+
+.footerline2{
+    margin-left: 140px;
+    margin-top: -60px;
+    color: white;
+}
+
+.footerline3{
+    margin-left: 140px;
+    margin-top: -60px;
+    color: white;
+}
+.footerh1{
+    color: white;
+      text-align: center;
+      margin-top: 100px  ;
+}
+.footerlines p:hover{
+    cursor: pointer;
+}
+ .fas{
+     margin-right: 20px;
+     
+ }
+ .fab{
+     margin-right: 15px;
+    
+ }
+#footer h4{
+    color: white;
+    text-align: center;
+}
