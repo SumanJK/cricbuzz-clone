@@ -4,7 +4,7 @@ function signup(){
 }
 document.getElementById("plans_left").addEventListener("click",homePage)
 function homePage(){
-    window.location.href= "frontpage.html"
+    window.location.href= "index.html"
 }
 var emailData=[];
 var emailObj={

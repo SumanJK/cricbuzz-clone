@@ -16,9 +16,9 @@ function otp_pay(){
 }
 document.getElementById("frontPage").addEventListener("click",backToHomePage)
 function backToHomePage(){
-    window.location.href= "frontpage.html"
+    window.location.href= "index.html"
 }
 document.getElementById("frontPageImg").addEventListener("click",backToHomePageAgain)
 function backToHomePageAgain(){
-    window.location.href= "frontpage.html"
+    window.location.href= "index.html"
 }

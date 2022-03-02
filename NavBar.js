@@ -9,5 +9,5 @@
     }
     document.getElementById("homepage").addEventListener("click",homeComming)
     function homeComming(){
-        window.location.href= "frontpage.html"
+        window.location.href= "index.html"
     }

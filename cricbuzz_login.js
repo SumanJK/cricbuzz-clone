@@ -49,9 +49,9 @@ function signin(){
 }
 document.getElementById("homeTransfer").addEventListener("click",backHome)
 function backHome(){
-    window.location.href= "frontpage.html"
+    window.location.href= "index.html"
 }
 document.getElementById("toHome").addEventListener("click",backToHome)
 function backToHome(){
-    window.location.href= "frontpage.html"
+    window.location.href= "index.html"
 }
