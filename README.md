@@ -61,7 +61,7 @@ User Account Page
 
 
 ## Contributors
-
+- [@Suman Giri](https://github.com/SumanJK)
 - [@Sudhir Chavhan](https://github.com/SudhirPC)
 - [@Shravani Nilange](https://github.com/shrawaninilange)
 - [@dhawal07](https://github.com/dhawal07)
